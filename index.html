@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#180f2e" />
+  <title>Happy Birthday, Kackroch! 🪳🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="sparkle-field" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="topbar">
+      <div class="brand-mark">✦ BESTIE SURPRISE ✦</div>
+      <div class="tiny-pill"><span class="status-dot"></span> Made with friendship</div>
+    </header>
+
+    <section class="hero" id="hero">
+      <p class="eyebrow">ATTENTION, MISS KACKROCH 🪳</p>
+      <h1>It's your <span>birthday!</span></h1>
+      <p class="subtitle">A tiny website for a big-time drama queen.<br>Ready for your very serious surprise? 👀</p>
+
+      <div class="cake-stage" aria-label="Animated birthday cake">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="cake-shadow"></div>
+        <div class="cake">
+          <div class="cake-top"></div>
+          <div class="icing">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="cake-layer layer-top"></div>
+          <div class="cake-layer layer-bottom"></div>
+          <div class="sprinkles"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
+          <div class="candles">
+            <div class="candle candle-one"><span class="flame"></span></div>
+            <div class="candle candle-two"><span class="flame"></span></div>
+            <div class="candle candle-three"><span class="flame"></span></div>
+          </div>
+        </div>
+        <div class="floating float-star">✦</div>
+        <div class="floating float-heart">♥</div>
+        <div class="floating float-spark">✧</div>
+        <div class="mini-roach" title="Your official birthday mascot">🪳</div>
+      </div>
+
+      <button class="primary-btn" id="surpriseBtn">
+        <span>Open your surprise</span><span class="btn-icon">🎁</span>
+      </button>
+      <p class="hint">Psst… sound on for extra birthday vibes 🔊</p>
+    </section>
+
+    <section class="surprise-panel" id="surprisePanel" hidden>
+      <div class="reveal-card">
+        <div class="confetti-emoji">🎉 🎊 🎉</div>
+        <p class="eyebrow">OFFICIAL BESTIE ANNOUNCEMENT</p>
+        <h2>Happy Birthday,<br><span>Kackroch 🪳</span></h2>
+        <p class="message">
+          Another year older, but don't worry — your weirdness is still at a professional level. 😂
+          Thanks for being the kind of friend who makes ordinary days way more fun.
+          I hope your year is full of laughter, good surprises, delicious cake, and absolutely zero boring people.
+        </p>
+        <div class="friendship-stamp">CERTIFIED LEGEND<br><small>Since day one ✨</small></div>
+        <button class="secondary-btn" id="wishBtn">Make a birthday wish ✨</button>
+        <p class="wish-result" id="wishResult" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="bottom-note">
+      <div class="note-icon">💜</div>
+      <div>
+        <strong>Friendship rule #1</strong>
+        <p>Stay silly, keep shining, and save me a piece of cake.</p>
+      </div>
+    </section>
+
+    <footer>Built with ✦, chaos & best-friend energy</footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
